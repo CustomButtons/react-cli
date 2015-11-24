@@ -14,6 +14,7 @@ react-cli
       -h, --help           output usage information
       -V, --version        output the version number
       -p, --props [props]  Props to pass into the component
+      -s, --static         Use static render
 
 ## Examples
 
@@ -21,7 +22,10 @@ Without passing `props`:
 
     react-cli my-component.jsx
 
-
 Passing `props`
 
     react-cli my-component.jsx -p "{\"foo\": \"bar\"}"
+
+With static render
+
+    react-cli my-component.jsx -s
